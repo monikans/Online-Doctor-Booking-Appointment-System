@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans";
+    color: #060101;
+}
+
+section {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: url("https://images.pexels.com/photos/40568/medical-appointment-doctor-healthcare-40568.jpeg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.form-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.4); /* White background with transparency */
+    width: 380px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 60px #000;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 2em;
+    color: #000; /* Text color set to black */
+}
+
+.control input {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    color: #000; /* Text color set to black */
+    border: none;
+    outline: none;
+    margin: 1em 0;
+}
+
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color:#007bff;
+}

@@ -1,0 +1,83 @@
+body {
+    background-image: url("https://drkaranhospital.com/wp-content/uploads/2021/02/banner1.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color:white;
+    color:black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    text-decoration: none;
+    color:black;
+    font-size: 24px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color:black;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ffc107;
+}
+
+
+.contactform {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for contact form */
+    padding: 25px;
+    margin: 20px;
+    border-radius: 10px;
+    width:75%;
+    max-width: 800px;
+}
+
+.contactform h3 {
+    margin-bottom: 10px;
+}
+
+.box {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.contactlogo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contactlogo a {
+    color: #333;
+    font-size: 24px;
+    margin: 0 10px;
+}

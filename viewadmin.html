@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="viewadmin.css" type="text/css" >
+    <link href="https://fonts.googleapis.com/css2?family=Kurale&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-heartbeat"></i>DocInTouch</a>
+        <nav class="navbar">
+            <a href="home.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="doctors.html">Doctors</a>
+            <a href="departments.html">Departments</a>
+            <a href="about.html">About</a>
+            <a href="forDoctors.html">For Doctors</a>
+            <a href="login.html">Login</a>
+        </nav>
+        
+        <div id="menu-btn" class="fas fa-bars"></div>
+        
+        </header>
+    <div class="bg-index">
+        <div class="login-container">
+            <h3>select</h3>
+            <br><br><br>
+            <form class="login-form"  method="post">
+                <button type="button" class="login-btn" onclick="window.location.href='viewdoctors.php'" >View Doctors</button>
+                <br>
+                <br>
+                <button type="button" class="login-btn" onclick="window.location.href='viewbooking.php'">View Bookings</button>
+                <br>
+                <br>
+                <button type="button" class="login-btn" onclick="window.location.href='viewqueries.php'">View Queries</button>
+                
+            </form>
+        </div>
+    </div>   
+</body>
+</html>

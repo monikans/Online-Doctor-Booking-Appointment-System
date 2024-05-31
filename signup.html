@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>  
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DocInTouch</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet"  href="signup.css">
+</head>
+<body>  
+<section class="signup">
+  <h2>Doctor Registration</h2>
+  <p class="req"></p>
+  <form method="post" action="signup.php">
+    <div class="label">First Name: <input type="text" placeholder="Enter Your Firstname" name="firstname"  required></div>
+    <br>
+    <div class="label">Last Name: <input type="text" placeholder="Enter Your Lastname" name="lastname" required></div>
+    <br>
+    <div class="label">District: <input type="text" placeholder="Enter Your District" name="district" required></div>
+    <br>
+    <div class="label">Gender:<br>
+        <select name="gender">
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+          <option value="other">Others</option>
+        </select>
+    </div>    
+    <br>
+    <div class="label">National ID / Passport Number: <input type="text" placeholder="Enter Your National ID / Passport Number" name="national_id" required></div>
+    <br>
+    <div class="label">Registration Number (BMDC): <input type="text" placeholder="Enter Your Registration Number" name="registration_number"  required></div>
+    <br>
+    <div class="label">Doctor Type: <input type="text" placeholder="Enter Your Doctor Type" name="doctor_type"  required></div>
+    <br>
+    <div class="label">Mobile number: <input type="text" placeholder="Enter Your National Mobile Number" name="mobile_number"  required></div>
+    <br>
+    <div class="label">E-mail: <input type="text" placeholder="Enter Your Email-Id" name="email" required></div>
+    <br>
+    <button type="submit" class="btn">SUBMIT <i class="fas fa-chevron-right"></i></button>
+  </form>
+</section>
+</body>
+</html>

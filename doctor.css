@@ -1,0 +1,148 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('https://img.freepik.com/free-photo/pastel-blue-vignette-concrete-textured-background_53876-102637.jpg?w=740&t=st=1710340964~exp=1710341564~hmac=003f94e5cf39802fc31c8a8f6a603c307f4458398eb4b817caf2f76dfeb3336d://www.freepik.com/free-vector/modern-blue-online-doctor-concept_2092495.htm#fromView=search&page=1&position=49&uuid=1568f7d2-5757-4053-b918-9a9103350b43'); /* Replace 'your-background-image.jpg' with the URL or path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* This will prevent the background image from scrolling with the content */
+    background-repeat: no-repeat;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styles */
+.header {
+    background-color: #fff; /* White background for header */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 999; /* Ensure the header is above other elements */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ffc107; /* Yellow color on hover */
+}
+
+/* Doctors section styles */
+.doctors {
+    padding: 20px;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.seachbar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 1100px;
+    position: relative;
+}
+
+.search-bar {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar input[type="text"] {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.search-bar button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
+}
+
+.search-bar img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    flex: 0 0 calc(25% - 40px);
+    margin: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.box h3 {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.box span {
+    color: #666;
+}

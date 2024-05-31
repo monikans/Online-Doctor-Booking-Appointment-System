@@ -1,0 +1,152 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9; /* Light gray background color */
+    color: #333;
+    background-image: url("https://img.freepik.com/free-photo/pastel-blue-vignette-concrete-textured-background_53876-102637.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+/* Search bar styles */
+/* Search bar styles */
+.search-bar {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar input[type="text"] {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.search-bar button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
+}
+
+.search-bar img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+
+
+
+/* Header styles */
+.header {
+    background-color: #fff; /* White background for header */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 999; /* Ensure the header is above other elements */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ffc107; /* Yellow color on hover */
+}
+
+/* Departments section styles */
+.departments {
+    padding: 20px;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.deptsView {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.deptsAlign {
+    flex: 0 0 auto;
+    width: calc(20% - 40px);
+    margin: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.deptsAlign img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.deptsAlign h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.deptsAlign p {
+    margin-bottom: 10px;
+    color: #666;
+    text-decoration: none;
+}
+/* Paragraph styles */
+p {
+    margin-bottom: 10px; /* Bottom margin for paragraphs */
+    line-height: 1.6; /* Line height for better readability */
+    color:black; /* Default text color for paragraphs */
+    font-size: 16px; /* Default font size for paragraphs */
+    text-decoration: none;
+}
+

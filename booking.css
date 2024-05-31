@@ -1,0 +1,103 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the body */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://thumbs.dreamstime.com/z/doctor-hand-marked-appointment-patient-calendar-concept-planner-health-care-doctor-hand-marked-appointment-patient-124864671.jpg?ct=jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px; /* Add padding to the body */
+}
+
+/* Styling the book section */
+.book {
+    padding: 100px 0;
+    text-align: center;
+    color: #fff; /* Text color */
+}
+
+/* Styling the heading */
+.heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.697);
+}
+
+/* Styling the form container */
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Add some top margin */
+}
+
+/* Styling the form */
+form {
+    background: rgba(11, 10, 10, 0.7); /* Semi-transparent background */
+    padding: 20px 15px; /* Reduced padding */
+    border-radius: 10px;
+    max-width: 400px; /* Set a maximum width */
+    width: 100%; /* Make form width responsive */
+    margin: 0 20px; /* Add margin to prevent touching screen edges */
+}
+
+/* Styling the form elements */
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: white; /* Ensure heading text color is visible */
+}
+
+.box {
+    width: 100%; /* Make input fields take full width of the form */
+    padding: 10px;
+    margin-bottom: 15px; /* Reduced bottom margin */
+    border: none;
+    border-radius: 5px;
+}
+
+/* Styling the button */
+.btn {
+    width: 100%; /* Make button take full width of the form */
+    padding: 10px;
+    background-color: #007bff; /* Button background color */
+    border: none;
+    border-radius: 5px;
+    color: #fff; /* Button text color */
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #001eff; /* Button background color on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .book {
+        padding: 50px 0;
+    }
+
+    .heading {
+        font-size: 1.5rem;
+    }
+
+    form {
+        padding: 15px 10px; /* Reduced padding for smaller screens */
+    }
+
+    .box {
+        padding: 8px;
+    }
+
+    .btn {
+        padding: 8px;
+    }
+}

@@ -1,0 +1,130 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://img.freepik.com/free-photo/pastel-blue-vignette-concrete-textured-background_53876-102637.jpg?w=740&t=st=1710340964~exp=1710341564~hmac=003f94e5cf39802fc31c8a8f6a603c307f4458398eb4b817caf2f76dfeb3336d'); /* Replace 'your-background-image-url.jpg' with the URL of your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.header {
+    background-color:white;
+    color:black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    color: #333; /* Logo color */
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color:black;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ffc107;
+}
+.login-container {
+    margin: 0 auto;
+    padding: 7.5px;
+    padding-right: 90px;    
+    background-image: url('https://img.freepik.com/free-photo/pastel-blue-vignette-concrete-textured-background_53876-102637.jpg?w=740&t=st=1710340964~exp=1710341564~hmac=003f94e5cf39802fc31c8a8f6a603c307f4458398eb4b817caf2f76dfeb3336d://www.freepik.com/free-vector/modern-blue-online-doctor-concept_2092495.htm#fromView=search&page=1&position=49&uuid=1568f7d2-5757-4053-b918-9a9103350b43'); /* Replace 'your-background-image.jpg' with the URL or path to your background image */
+    height: 613px;
+    /*width: 100%;*/
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+}
+
+.login-container h3 {
+    font-family: 'Kurale', sans-serif;
+    color:  #153060;
+    font-size: 30px;
+    padding-left: 110px;
+    text-align: center;
+    
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin-left: 600px;
+    gap: 3px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 25px;
+    margin-bottom: 5px;
+    color:  #153060;
+}
+
+input {
+    text-align: center;
+    width: 390px;
+    padding: 8px;
+    background-color: rgb(229, 245, 242);
+    border: solid rgb(85, 154, 171);
+    border-radius: 15px;
+    border-width: 3px;
+    font-size: 16px;
+}
+.in {
+    text-align: center;
+    padding: 8px;
+    background-color: rgb(229, 245, 242);
+    border: solid rgb(85, 154, 171);
+    border-radius: 15px;
+    border-width: 3px;
+    font-size: 16px;
+}
+
+.login-btn {
+    width: 406px;
+    font-family: 'Kurale', sans-serif;
+    background-color: rgb(85, 154, 171);
+    color: #edf4fa;
+    padding: 6px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 25px;
+}
+.signup-btn {
+    width: 100px;
+    font-family: 'Kurale', sans-serif;
+    background-color:  rgb(85, 154, 171);
+    color: #edf4fa;
+    padding: 6px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.login-btn:hover {
+    background-color:  rgb(73, 137, 160);
+}

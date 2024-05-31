@@ -1,0 +1,104 @@
+/* CSS reference for navigation bar styling */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color:rgb(179,223,242); /* Light gray background color */
+    background-image: url("https://img.freepik.com/free-photo/pastel-blue-vignette-concrete-textured-background_53876-102637.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    line-height: 1.6;
+}
+
+.header {
+    background-color:white;
+    color:black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    text-decoration: none;
+    color:black;
+    font-size: 24px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color:black;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ffc107;
+}
+/* Additional styling for review section */
+.review {
+    padding: 50px 20px;
+}
+.rev {
+    margin-left: 500px;
+    width:700px;
+}
+.heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.box img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.stars {
+    color: #f39c12;
+    margin-bottom: 10px;
+}
+
+.text {
+    font-size: 14px;
+}
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 130px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color:#007bff;
+}
